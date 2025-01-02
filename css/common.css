@@ -51,7 +51,7 @@ button {
   margin: 0 auto;
 }
 
-.categories-wrapper {
+.item {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -89,6 +89,7 @@ button {
 /* #endregion */
 /* #region task-two */
 .container-task-two {
+  max-width: 1440px;
   padding: 100px 156px;
   margin: 0 auto;
 }
@@ -99,6 +100,11 @@ button {
 }
 .gallery li {
   width: calc((100% - 24px * 2) / 3);
+}
+.gallery img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
 }
 /* #endregion */
 /* #region task-three */
